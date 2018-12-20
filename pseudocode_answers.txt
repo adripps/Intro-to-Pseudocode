@@ -1,0 +1,32 @@
+Short Answer:
+1. Programmers use pseudocode to express a desired algorithm without writing it in any particular language's syntax.
+2. If you run pseudocode on your computer nothing will happen because it's does not use the proper syntax for the computer to understand.
+Programming Assignment:
+1.  INPUT a number
+    INPUT a second number
+    IF the first number is greater than the second number THEN
+      PRINT number one
+    IF the first number is less than the second number THEN
+      PRINT number two
+    ELSE
+      PRINT "Numbers are equal"
+2.  INIT number to 1
+    WHILE number is less than or equal to 100
+      PRINT number
+      INCREMENT number
+    ENDWHILE
+3.  INPUT searched for phonebook entry
+    INPUT phonebook entries
+    FOR each phonebook entry
+      IF searched for phonebook entry is equal to phonebook entry
+        RETURN phonebook entry
+4.  const phoneBookEntry = '555-5555';
+    const phoneBook = ['555-111', '555-3333', '555-5555'];
+
+    function findEntry (phoneBook, phoneBookEntry) {
+      for (var i = 0; i < phoneBook.length; i++){
+        if(phoneBook[i] === phoneBookEntry){
+          return phoneBook[i];
+        }
+      }
+    }
